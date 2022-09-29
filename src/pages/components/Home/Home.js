@@ -23,11 +23,11 @@ export const IndexHome = () => {
               That helps me to learn a ton of new stuff, grow as a developer and
               support other open source projects.
             </p>
-            <Link to={"contact"}>
-              <a href="#contact" className="btn hire-me">
+            {/* <Link to={"contact"}> */}
+              <a href="mailto:fitringer612@gmail.com" className="btn hire-me" target="_blank">
                 Hire Me
               </a>
-            </Link>
+            {/* </Link> */}
           </div>
           <div className="home-img">
             <img src={avatar} alt="" />
